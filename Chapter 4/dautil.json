@@ -1,0 +1,312 @@
+{
+    "central_tendency": {
+        "figure.figsize": [
+            11.6,
+            8.5
+        ]
+    },
+    "central_tendency.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "title": "Central Tendency for Temperature",
+                "xlabel": "Percentiles",
+                "ylabel": "{}"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Central Tendency for Wind Speed",
+                "xlabel": "Percentiles",
+                "ylabel": "{}"
+            }
+        ],
+        [
+            {
+                "legend": "loc=upper left",
+                "title": "Temperature Truncated at Different Percentiles",
+                "xlabel": "{}",
+                "ylabel": "Frequency"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Wind Speed Truncated at Different Percentiles",
+                "xlabel": "{}",
+                "ylabel": "Frequency"
+            }
+        ]
+    ],
+    "central_tendency.latex": [
+        1,
+        2
+    ],
+    "mpmath_fit": {
+        "figure.figsize": [
+            11.3,
+            8.3
+        ]
+    },
+    "mpmath_fit.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "title": "Cosine Model",
+                "xlabel": "Day of year",
+                "ylabel": "{}"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "Polynomial Approximation",
+                "xlabel": "Day of year",
+                "ylabel": "{}"
+            }
+        ]
+    ],
+    "mpmath_linalg": {
+        "figure.figsize": [
+            10.0,
+            7.4
+        ]
+    },
+    "mpmath_linalg.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "title": "Polynomial Fit",
+                "xlabel": "Day of year",
+                "ylabel": "{}"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "Trigonometric Approximation",
+                "xlabel": "Day of year",
+                "ylabel": "{}"
+            }
+        ]
+    ],
+    "normalizing_boxcox": {
+        "figure.figsize": [
+            11.4,
+            8.3
+        ]
+    },
+    "normalizing_boxcox.labels": [
+        [
+            {
+                "title": "QQ Plot of the Original Data"
+            },
+            {
+                "title": "QQ Plot of the Transformed Data"
+            }
+        ],
+        [
+            {
+                "title": "Distplot of the Original Data"
+            },
+            {
+                "title": "Distplot of the Transformed Data"
+            }
+        ]
+    ],
+    "normalizing_boxcox.latex": [
+        3
+    ],
+    "outliers": {
+        "axes.titlesize": 19.1,
+        "figure.figsize": [
+            11.6,
+            8.5
+        ],
+        "font.size": 16.3
+    },
+    "outliers.labels": [
+        [
+            {
+                "title": "Original Data"
+            }
+        ],
+        [
+            {
+                "title": "Outliers Clipped"
+            }
+        ],
+        [
+            {
+                "title": "Outliers Filtered"
+            }
+        ]
+    ],
+    "rebinning_data": {
+        "figure.figsize": [
+            15.9,
+            11.8
+        ]
+    },
+    "rebinning_data.labels": [
+        [
+            {
+                "title": "Original Wind Speed",
+                "xlabel": "{}",
+                "ylabel": "Probability"
+            },
+            {
+                "title": "Original Wind Direction",
+                "xlabel": "{}",
+                "ylabel": "Probability"
+            }
+        ],
+        [
+            {
+                "title": "Rebinned with Beaufort Scale",
+                "xlabel": "Wind speed (Beaufort scale)"
+            },
+            {
+                "title": "Rebinned with Cardinal Directions",
+                "xlabel": "Wind direction (cardinal direction)"
+            }
+        ]
+    ],
+    "rlm_demo": {
+        "figure.figsize": [
+            10.3,
+            7.5
+        ]
+    },
+    "transforming_down": {
+        "figure.figsize": [
+            9.3,
+            6.8
+        ]
+    },
+    "transforming_down.labels": [
+        [
+            {
+                "title": "Original Data",
+                "xlabel": "{}",
+                "ylabel": "Infant Mortality Rate"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "Log Transformed Data",
+                "xlabel": "Log {}",
+                "ylabel": "Log Infant Mortality Rate"
+            }
+        ]
+    ],
+    "transforming_ratios": {
+        "figure.figsize": [
+            10.3,
+            7.5
+        ]
+    },
+    "transforming_ratios.labels": [
+        [
+            {
+                "title": "Monthly Rainy Days Ratios",
+                "xlabel": "Ratios"
+            },
+            {
+                "title": "Transformed with logit()",
+                "xlabel": "logit(ratios)"
+            }
+        ],
+        [
+            {
+                "title": "Q-Q Plot of Monthly Ratios"
+            },
+            {
+                "title": "Q-Q Plot of Transformed Data"
+            }
+        ]
+    ],
+    "transforming_ratios.latex": [
+        4
+    ],
+    "transforming_up": {
+        "figure.figsize": [
+            10.7,
+            7.8
+        ]
+    },
+    "transforming_up.labels": [
+        [
+            {
+                "title": "Original Data"
+            },
+            {
+                "title": "Transformed Data"
+            }
+        ],
+        [
+            {
+                "title": "Residuals of the Original Data"
+            },
+            {
+                "title": "Residuals of the Transformed Data"
+            }
+        ]
+    ],
+    "weighted_ls": {
+        "figure.figsize": [
+            11.8,
+            8.6
+        ],
+        "lines.linewidth": 3.0
+    },
+    "weighted_ls.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "title": "Ordinary Least Squares",
+                "xlabel": "Day of year",
+                "ylabel": "{}"
+            },
+            {
+                "title": "Interquartile Ranges",
+                "xlabel": "Day of year"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "Weighted Least Squares",
+                "xlabel": "Day of year",
+                "ylabel": "{}"
+            },
+            {
+                "title": "Weights",
+                "xlabel": "Day of year"
+            }
+        ]
+    ],
+    "winsorising_data": {
+        "axes.titlesize": 17.9,
+        "figure.figsize": [
+            12.3,
+            9.1
+        ]
+    },
+    "winsorising_data.labels": [
+        [
+            {
+                "title": "Original Data"
+            },
+            {
+                "title": "Log Effective Temperature Winsorized"
+            }
+        ],
+        [
+            {
+                "title": "Log Light Intensity Winsorized"
+            },
+            {
+                "title": "Both Variables Winsorized"
+            }
+        ]
+    ]
+}

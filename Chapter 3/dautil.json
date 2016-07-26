@@ -1,0 +1,105 @@
+{
+    "anova": {
+        "figure.figsize": [
+            13.9,
+            10.1
+        ]
+    },
+    "bayes_confidence": {
+        "figure.figsize": [
+            11.8,
+            8.7
+        ]
+    },
+    "correlating_pearson": {
+        "axes.titlesize": 14.5,
+        "figure.figsize": [
+            11.7,
+            8.5
+        ],
+        "font.size": 14.7
+    },
+    "correlating_pointbiserial": {
+        "figure.figsize": [
+            11.2,
+            8.3
+        ]
+    },
+    "determining_bias": {
+        "axes.titlesize": 13.5,
+        "figure.figsize": [
+            13.0,
+            9.7
+        ],
+        "font.size": 12.9
+    },
+    "extreme_values": {
+        "axes.titlesize": 15.2,
+        "figure.figsize": [
+            11.3,
+            8.4
+        ],
+        "font.size": 13.6
+    },
+    "extreme_values.labels": [
+        [
+            {
+                "title": "Annual Sums of Daily Rainfall Data"
+            },
+            {
+                "title": "Annual Sums of 200 simulations"
+            }
+        ],
+        [
+            {
+                "title": "Fitting to the Generalized Extreme Value Distribution"
+            },
+            {
+                "title": "Confidence Intervals",
+                "xlabel": "Number of simulations",
+                "ylabel": "{0}"
+            }
+        ]
+    ],
+    "fitting_gamma": {
+        "axes.titlesize": 15.2,
+        "figure.figsize": [
+            9.2,
+            6.9
+        ],
+        "font.size": 11.6,
+        "lines.linewidth": 3.0
+    },
+    "fitting_poisson": {
+        "axes.titlesize": 15.8,
+        "figure.figsize": [
+            9.1,
+            6.7
+        ],
+        "font.size": 11.3
+    },
+    "sampling_weights": {
+        "axes.titlesize": 16.1,
+        "figure.figsize": [
+            11.1,
+            8.1
+        ],
+        "font.size": 12.0
+    },
+    "sampling_weights.labels": [
+        [
+            {
+                "title": "Annually Resampled {} with Simulations",
+                "xlabel": "Year",
+                "ylabel": "{}"
+            }
+        ],
+        [
+            {
+                "title": "Slopes for the Simulations",
+                "xlabel": "Slope",
+                "ylabel": "Probability"
+            }
+        ]
+    ]
+}

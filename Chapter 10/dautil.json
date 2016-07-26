@@ -1,0 +1,359 @@
+{
+    "conf_matrix": {
+        "figure.figsize": [
+            10.5,
+            7.8
+        ]
+    },
+    "dummy_clf": {
+        "figure.figsize": [
+            10.8,
+            7.9
+        ],
+        "font.size": 13.4
+    },
+    "dummy_clf.labels": [
+        [
+            {
+                "title": "Accuracy of Rain & Dummy Classifiers",
+                "ylabel": "Accuracy"
+            },
+            {
+                "title": "Precisions of Rain & Dummy Classifiers",
+                "ylabel": "Precision"
+            }
+        ],
+        [
+            {
+                "title": "Recalls  of Rain & Dummy Classifiers",
+                "ylabel": "Recall"
+            },
+            {
+                "title": "F1 Score of Rain & Dummy Classifiers",
+                "ylabel": "F1 score"
+            }
+        ]
+    ],
+    "dummy_reg": {
+        "figure.figsize": [
+            10.7,
+            7.8
+        ]
+    },
+    "dummy_reg.labels": [
+        [
+            {
+                "title": "R-squared for Dummy and Temperature Regressors",
+                "ylabel": "R-squared"
+            },
+            {
+                "title": "MSE for Dummy and Temperature Regressors",
+                "ylabel": "MSE"
+            }
+        ],
+        [
+            {
+                "title": "MedAE for Dummy and Temperature Regressors",
+                "ylabel": "MedAE"
+            },
+            {
+                "title": "MPE for Dummy and Temperature Regressors"
+            }
+        ]
+    ],
+    "evaluating_clusters": {
+        "figure.figsize": [
+            9.7,
+            7.2
+        ]
+    },
+    "evaluating_clusters.labels": [
+        [
+            {},
+            {}
+        ],
+        [
+            {},
+            {
+                "title": "Silhouette Coefficients",
+                "xlabel": "Number of clusters",
+                "ylabel": "Average silhouette coefficient"
+            }
+        ]
+    ],
+    "evaluating_clusters.latex": [
+        8
+    ],
+    "kappa": {
+        "figure.figsize": [
+            10.7,
+            8.0
+        ]
+    },
+    "kappa.labels": [
+        [
+            {
+                "title": "Accuracy & Kappa",
+                "xlabel": "Accuracy",
+                "ylabel": "Kappa"
+            },
+            {
+                "title": "Precision & Kappa",
+                "xlabel": "Precision",
+                "ylabel": "Kappa"
+            }
+        ],
+        [
+            {
+                "title": "Recall & Kappa",
+                "xlabel": "Recall",
+                "ylabel": "Kappa"
+            },
+            {
+                "title": "F1 Score & Kappa",
+                "xlabel": "F1 Score",
+                "ylabel": "Kappa"
+            }
+        ]
+    ],
+    "kappa.latex": [
+        13
+    ],
+    "mae_rss": {
+        "figure.figsize": [
+            10.5,
+            7.9
+        ]
+    },
+    "mae_rss.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "title": "Boosting MeanAE",
+                "xlabel": "MeanAE"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Boosting RSS",
+                "xlabel": "RSS"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "ExtraTreesRegressor MeanAE",
+                "xlabel": "MeanAE"
+            },
+            {
+                "legend": "loc=best",
+                "title": "ExtraTreesRegressor RSS",
+                "xlabel": "RSS"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "RANSAC MeanAE",
+                "xlabel": "MeanAE"
+            },
+            {
+                "legend": "loc=best",
+                "title": "RANSAC RSS",
+                "xlabel": "RSS"
+            }
+        ]
+    ],
+    "mae_rss.latex": [
+        11,
+        12
+    ],
+    "mape_mpe": {
+        "figure.figsize": [
+            10.8,
+            7.9
+        ]
+    },
+    "mape_mpe.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "title": "Boosting MAPE",
+                "xlabel": "MAPE"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Boosting MPE",
+                "xlabel": "MPE"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "ExtraTreesRegressor MAPE",
+                "xlabel": "MAPE"
+            },
+            {
+                "legend": "loc=best",
+                "title": "ExtraTreesRegressor MPE",
+                "xlabel": "MPE"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "RANSAC MAPE",
+                "xlabel": "MAPE"
+            },
+            {
+                "legend": "loc=best",
+                "title": "RANSAC MPE",
+                "xlabel": "MPE"
+            }
+        ]
+    ],
+    "mape_mpe.latex": [
+        9,
+        10
+    ],
+    "matthews_correlation": {
+        "figure.figsize": [
+            11.4,
+            8.5
+        ]
+    },
+    "matthews_correlation.labels": [
+        [
+            {
+                "title": "Accuracy & Matthews Correlation Coefficient",
+                "xlabel": "Accuracy",
+                "ylabel": "MCC"
+            },
+            {
+                "title": "Precision & Matthews Correlation Coefficient",
+                "xlabel": "Precision",
+                "ylabel": "MCC"
+            }
+        ],
+        [
+            {
+                "title": "Recall & Matthews Correlation Coefficient",
+                "xlabel": "Recall",
+                "ylabel": "MCC"
+            },
+            {
+                "title": "F1 Score & Matthews Correlation Coefficient",
+                "xlabel": "F1 score",
+                "ylabel": "MCC"
+            }
+        ]
+    ],
+    "matthews_correlation.latex": [
+        14
+    ],
+    "mse": {
+        "figure.figsize": [
+            10.6,
+            7.9
+        ]
+    },
+    "mse.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "xlabel": "MSE"
+            },
+            {
+                "legend": "loc=best",
+                "xlabel": "MedAE"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "xlabel": "MSE"
+            },
+            {
+                "xlabel": "MedAE"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "xlabel": "MSE"
+            },
+            {
+                "legend": "loc=best",
+                "xlabel": "MedAE"
+            }
+        ]
+    ],
+    "mse.latex": [
+        6,
+        7
+    ],
+    "precision_recall": {
+        "figure.figsize": [
+            12.1,
+            9.1
+        ]
+    },
+    "precision_recall.latex": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "roc_auc": {
+        "figure.figsize": [
+            11.8,
+            8.7
+        ]
+    },
+    "roc_auc.labels": [
+        [
+            {
+                "title": "AUROC",
+                "ylabel": "Score"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "Receiver Operator Characteristic",
+                "xlabel": "False positive rate",
+                "ylabel": "Recall"
+            }
+        ]
+    ],
+    "roc_auc.latex": [
+        5
+    ],
+    "visualizing_goodness": {
+        "figure.figsize": [
+            10.3,
+            7.6
+        ]
+    },
+    "visualizing_goodness.labels": [
+        [
+            {
+                "legend": "No Legend",
+                "title": "Actual & Predicted Values"
+            },
+            {
+                "title": "Residuals",
+                "xlabel": "Time",
+                "ylabel": "target - prediction"
+            }
+        ],
+        [
+            {
+                "legend": "No Legend",
+                "title": "Residuals Histogram",
+                "xlabel": "target - prediction",
+                "ylabel": "Frequency"
+            },
+            {}
+        ]
+    ]
+}

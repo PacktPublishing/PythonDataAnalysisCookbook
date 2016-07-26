@@ -1,0 +1,82 @@
+{
+    "applying_pca.latex": [
+        1
+    ],
+    "bagging": {
+        "figure.figsize": [
+            10.0,
+            7.3
+        ]
+    },
+    "boosting": {
+        "figure.figsize": [
+            10.2,
+            7.4
+        ]
+    },
+    "clustering_hierarchy": {
+        "figure.figsize": [
+            15.9,
+            11.9
+        ]
+    },
+    "clustering_hierarchy.latex": [
+        2,
+        3
+    ],
+    "fit_ransac": {
+        "figure.figsize": [
+            10.7,
+            8.0
+        ]
+    },
+    "nested_cv": {
+        "figure.figsize": [
+            10.8,
+            7.9
+        ]
+    },
+    "nested_cv.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "title": "R Squared Scores of the Full Grid",
+                "xlabel": "R squared"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Best Scores in Iterations",
+                "xlabel": "R squared"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "Mean Scores Grouped by Fold",
+                "xlabel": "R squared"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Standard Deviations per Iteration",
+                "xlabel": "R squared"
+            }
+        ]
+    ],
+    "random_forest": {
+        "figure.figsize": [
+            10.1,
+            7.4
+        ]
+    },
+    "stacking_multiple": {
+        "figure.figsize": [
+            10.7,
+            7.8
+        ]
+    },
+    "theano_tour.latex": [
+        4,
+        5,
+        6
+    ]
+}

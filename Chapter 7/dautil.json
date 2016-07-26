@@ -1,0 +1,147 @@
+{
+    "autoregressive_test": {
+        "figure.figsize": [
+            10.9,
+            7.9
+        ]
+    },
+    "autoregressive_test.labels": [
+        [
+            {
+                "title": "Market Efficiency",
+                "xlabel": "",
+                "ylabel": "Ratio R-squared"
+            }
+        ],
+        [
+            {
+                "title": "R squared for Restricted and Unrestricted Models",
+                "xlabel": "Unrestricted R-squared",
+                "ylabel": "Restricted R-squared (10 ** -16)"
+            }
+        ]
+    ],
+    "autoregressive_test.latex": [
+        13,
+        14,
+        15
+    ],
+    "calmar_sortino.latex": [
+        4
+    ],
+    "capm.latex": [
+        5
+    ],
+    "correlating_market": {
+        "figure.figsize": [
+            10.8,
+            7.9
+        ]
+    },
+    "correlating_market.labels": [
+        [
+            {
+                "title": "Correlation with S & P 500",
+                "ylabel": "Correlation coefficient"
+            },
+            {
+                "title": "Linear Regression with S & P 500",
+                "xlabel": "",
+                "ylabel": "Slope"
+            }
+        ],
+        [
+            {
+                "title": "Squared Returns Differences with S & P 500",
+                "xlabel": "Mean",
+                "ylabel": "Standard deviation"
+            },
+            {
+                "title": "Volume & Volatility Correlation with S & P 500",
+                "xlabel": "Correlation Coefficient Volume",
+                "ylabel": "Correlation Coefficient Volatility"
+            }
+        ]
+    ],
+    "non_parametric": {
+        "figure.figsize": [
+            9.7,
+            7.1
+        ]
+    },
+    "non_parametric.labels": [
+        [
+            {
+                "title": "Non-parametric Run",
+                "xlabel": "Mean",
+                "ylabel": "Standard deviation"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "Z-scores of Non-parametric Runs",
+                "ylabel": "z-score"
+            }
+        ]
+    ],
+    "non_parametric.latex": [
+        6,
+        7,
+        8
+    ],
+    "populate_database": {
+        "figure.figsize": [
+            15.9,
+            11.8
+        ],
+        "font.size": 14.0
+    },
+    "portfolio_optimization.latex": [
+        16,
+        17
+    ],
+    "random_walk.latex": [
+        9,
+        10,
+        11,
+        12
+    ],
+    "rets_stats": {
+        "figure.figsize": [
+            11.4,
+            8.4
+        ]
+    },
+    "rets_stats.labels": [
+        [
+            {
+                "title": "S & P 500 Returns & Corresponding Gaussian",
+                "xlabel": "Return",
+                "ylabel": "Count"
+            },
+            {
+                "title": "Skew & Kurtosis of Returns",
+                "xlabel": "Skew",
+                "ylabel": "Kurtosis"
+            }
+        ],
+        [
+            {
+                "title": "Autocorrelation Plot"
+            },
+            {
+                "title": "Negative Returns of S & P 500",
+                "xlabel": "Log(returns)",
+                "ylabel": "Log(counts)"
+            }
+        ]
+    ],
+    "sharpe_liquidity.latex": [
+        3
+    ],
+    "simple_log_rets.latex": [
+        1,
+        2
+    ]
+}

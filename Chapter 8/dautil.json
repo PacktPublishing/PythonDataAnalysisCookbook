@@ -1,0 +1,28 @@
+{
+    "assortavity.latex": [
+        7
+    ],
+    "avg_clustering.latex": [
+        5,
+        6
+    ],
+    "between_centrality.latex": [
+        4
+    ],
+    "close_centrality.latex": [
+        3
+    ],
+    "cos_similarity": {
+        "figure.figsize": [
+            15.9,
+            11.9
+        ]
+    },
+    "cos_similarity.latex": [
+        8
+    ],
+    "net_density.latex": [
+        1,
+        2
+    ]
+}

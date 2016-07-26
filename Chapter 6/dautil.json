@@ -1,0 +1,405 @@
+{
+    "analyzing_audio": {
+        "figure.figsize": [
+            11.0,
+            8.1
+        ]
+    },
+    "analyzing_audio.labels": [
+        [
+            {
+                "title": "Audio Waveform",
+                "xlabel": "Time (s)"
+            },
+            {
+                "title": "Amplitude Spectrum",
+                "xlabel": "Frequency (Hz)"
+            }
+        ],
+        [
+            {
+                "title": "Cepstrum"
+            },
+            {
+                "title": "Short Time Fourier Transform",
+                "xlabel": "Time (s)",
+                "ylabel": "Frequency (Hz)"
+            }
+        ]
+    ],
+    "analyzing_audio.latex": [
+        9
+    ],
+    "analyzing_dct": {
+        "axes.titlesize": 14.6,
+        "font.size": 14.3
+    },
+    "analyzing_dct.labels": [
+        [
+            {
+                "title": "Amplitude Spectrum",
+                "xlabel": "Frequency (Hz)",
+                "ylabel": "Amplitude"
+            },
+            {
+                "title": "Distribution of Log Amplitude",
+                "xlabel": "Log Amplitude",
+                "ylabel": "Count"
+            }
+        ],
+        [
+            {
+                "title": "Distribution of Phase",
+                "xlabel": "Phase",
+                "ylabel": "Count"
+            },
+            {
+                "title": "Mel Frequency Spectrum",
+                "xlabel": "Mel frequency (mel)",
+                "ylabel": "Amplitude"
+            }
+        ]
+    ],
+    "analyzing_dct.latex": [
+        10,
+        11
+    ],
+    "analyzing_peaks": {
+        "figure.figsize": [
+            10.8,
+            7.9
+        ]
+    },
+    "analyzing_peaks.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "title": "Monthly Temperatures and Peaks",
+                "xlabel": "Year",
+                "ylabel": "{}"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Annual Maximum Series  (AMS)",
+                "xlabel": "Year",
+                "ylabel": "{}"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "Peak over Threshhold",
+                "xlabel": "Year",
+                "ylabel": "Longest annual streak"
+            },
+            {
+                "title": "Distribution of AMS",
+                "xlabel": "{}",
+                "ylabel": "Probability"
+            }
+        ]
+    ],
+    "block_boot": {
+        "figure.figsize": [
+            10.5,
+            7.6
+        ]
+    },
+    "block_boot.labels": [
+        [
+            {
+                "title": "Realisations of Block Bootstraps",
+                "xlabel": "Year",
+                "ylabel": "{}"
+            },
+            {
+                "title": "Distribution of Difference Medians",
+                "xlabel": "Difference Median",
+                "ylabel": "Count"
+            }
+        ],
+        [
+            {
+                "title": "Distribution of Slopes",
+                "xlabel": "Slope",
+                "ylabel": "Count"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Confidence Intervals for Difference Medians",
+                "xlabel": "Number of Bootstraps",
+                "ylabel": "Difference Median"
+            }
+        ]
+    ],
+    "discrete_wavelet": {
+        "figure.figsize": [
+            10.4,
+            7.5
+        ]
+    },
+    "discrete_wavelet.labels": [
+        [
+            {
+                "title": "Nile River Flows",
+                "xlabel": "Year"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Discrete Wavelet Transform"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "Coefficients Rescaled Ranges",
+                "xlabel": "Coefficients",
+                "ylabel": "Rescaled range"
+            },
+            {
+                "legend": "No Legend",
+                "title": "Rescaled Range of River Flows"
+            }
+        ]
+    ],
+    "discrete_wavelet.latex": [
+        12,
+        13,
+        14,
+        15,
+        16
+    ],
+    "estimating_welch": {
+        "figure.figsize": [
+            10.2,
+            7.5
+        ]
+    },
+    "estimating_welch.labels": [
+        [
+            {
+                "title": "Daily Average Temperature",
+                "xlabel": "Year",
+                "ylabel": "{}"
+            },
+            {
+                "title": "Fano Factor of Temperature",
+                "xlabel": "Year",
+                "ylabel": "Fano Factor"
+            }
+        ],
+        [
+            {
+                "title": "Welch Periodogram of Temperature",
+                "xlabel": "Frequency (Hz)",
+                "ylabel": "PSD"
+            },
+            {
+                "title": "Welch Periodogram of the Fano Factor",
+                "xlabel": "Frequency (Hz)",
+                "ylabel": "PSD"
+            }
+        ]
+    ],
+    "estimating_welch.latex": [
+        2
+    ],
+    "eval_smooth": {
+        "figure.figsize": [
+            15.9,
+            11.9
+        ],
+        "font.size": 15.4
+    },
+    "eval_smooth.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "title": "Atmospheric Pressure with Savitzky Golay Filter (win=11)",
+                "xlabel": "Year",
+                "ylabel": "{}"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Smoothing with Varying Window Size",
+                "xlabel": "Window size",
+                "ylabel": "Standard deviation of residuals"
+            }
+        ],
+        [
+            {
+                "title": "Residuals for Varying Window Size",
+                "xlabel": "Window size",
+                "ylabel": "Residuals"
+            },
+            {
+                "title": "Mean Absolute Percentage Error"
+            }
+        ]
+    ],
+    "eval_smooth.latex": [
+        6
+    ],
+    "exp_smoothing": {
+        "figure.figsize": [
+            11.3,
+            8.4
+        ]
+    },
+    "exp_smoothing.labels": [
+        [
+            {
+                "title": "Wind Speed Annual Mean",
+                "xlabel": "Year",
+                "ylabel": "{}"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Exponential Smoothing of Rolling Deviations (alpha=0.7)",
+                "xlabel": "Year",
+                "ylabel": "Rolling Deviation"
+            }
+        ],
+        [
+            {
+                "title": "MSE for Exponential Smoothing of Rolling Deviations",
+                "xlabel": "Alpha",
+                "ylabel": "MSE"
+            },
+            {
+                "title": "MSE for Double Exponential Smoothing"
+            }
+        ]
+    ],
+    "exp_smoothing.latex": [
+        3,
+        4,
+        5
+    ],
+    "lomb_scargle": {
+        "figure.figsize": [
+            10.3,
+            7.7
+        ]
+    },
+    "lomb_scargle.labels": [
+        [
+            {
+                "title": "Sine Wave"
+            },
+            {
+                "title": "Annual Sunspots Count",
+                "xlabel": "Year",
+                "ylabel": "Count"
+            }
+        ],
+        [
+            {
+                "title": "Lomb Scargle of Sine"
+            },
+            {
+                "title": "Lomb Scargle of Sunspots Count"
+            }
+        ]
+    ],
+    "lomb_scargle.latex": [
+        7,
+        8
+    ],
+    "moving_boot": {
+        "figure.figsize": [
+            10.8,
+            8.0
+        ]
+    },
+    "moving_boot.labels": [
+        [
+            {
+                "title": "Realisations of Moving Bootstrap",
+                "xlabel": "Year",
+                "ylabel": "{}"
+            },
+            {
+                "title": "Distribution of Second Difference Medians",
+                "ylabel": "Count"
+            }
+        ],
+        [
+            {
+                "title": "AR(1) Model",
+                "xlabel": "Slope",
+                "ylabel": "Count"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Confidence Intervals",
+                "xlabel": "Number of bootstraps",
+                "ylabel": "Second Difference Medians"
+            }
+        ]
+    ],
+    "periodograms": {
+        "figure.figsize": [
+            11.8,
+            8.7
+        ]
+    },
+    "periodograms.labels": [
+        [
+            {
+                "title": "Rain Periodogram",
+                "xlabel": "",
+                "ylabel": ""
+            },
+            {
+                "title": "Periodogram of the Second Difference of Rain",
+                "xlabel": "",
+                "ylabel": ""
+            }
+        ],
+        [
+            {
+                "title": "Periodogram of the 365 Day Rolling Sum of Rain"
+            },
+            {
+                "title": "Periodogram of the 365 Day Rolling Mean of Rain"
+            }
+        ]
+    ],
+    "periodograms.latex": [
+        1
+    ],
+    "phase_synchrony": {
+        "figure.figsize": [
+            10.5,
+            7.8
+        ]
+    },
+    "phase_synchrony.labels": [
+        [
+            {
+                "legend": "loc=best",
+                "title": "Wind Sped and Wind Direction",
+                "xlabel": "Day of year",
+                "ylabel": "z-scores"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Phase of Wind Speed and Wind Direction",
+                "xlabel": "Day of year",
+                "ylabel": "Instantaneous phase"
+            }
+        ],
+        [
+            {
+                "title": "Cross Correlation",
+                "xlabel": "Day of year"
+            },
+            {
+                "title": "Phase Shift using FFT",
+                "xlabel": "Day of year",
+                "ylabel": "Phase shift"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "applying_surf.latex": [
+        1,
+        2,
+        3
+    ],
+    "detecting_faces.labels": [
+        [
+            {
+                "title": "Original"
+            },
+            {
+                "title": "Rotated"
+            }
+        ],
+        [
+            {
+                "title": "Noisy"
+            },
+            {
+                "title": "Blurred"
+            }
+        ]
+    ],
+    "extracting_patches.labels": [
+        [
+            {
+                "title": "Original"
+            },
+            {
+                "title": "Otsu Threshold"
+            }
+        ],
+        [
+            {
+                "title": "Background & Foreground Subtracted"
+            },
+            {
+                "title": "With Markers"
+            }
+        ]
+    ],
+    "extracting_patches.latex": [
+        4
+    ],
+    "extracting_texture.latex": [
+        5,
+        6
+    ],
+    "quantizing_colors.labels": [
+        [
+            {
+                "title": "Original"
+            },
+            {
+                "title": "k=2"
+            }
+        ],
+        [
+            {
+                "title": "k=4"
+            },
+            {
+                "title": "k=8"
+            }
+        ]
+    ],
+    "searching_stars": {
+        "font.size": 14.0
+    },
+    "searching_stars.labels": [
+        [
+            {
+                "title": "Histogram of Brightness",
+                "xlabel": "Brightness^2",
+                "ylabel": "Frequency"
+            },
+            {
+                "legend": "loc=best",
+                "title": "Histogram of Brightness (axis=0)",
+                "xlabel": "Brightness^2"
+            }
+        ],
+        [
+            {
+                "legend": "loc=best",
+                "title": "Histogram of Brightness (axis=1)",
+                "xlabel": "Brightness^2"
+            },
+            {
+                "title": "Starry Sky with Keypoints"
+            }
+        ]
+    ]
+}

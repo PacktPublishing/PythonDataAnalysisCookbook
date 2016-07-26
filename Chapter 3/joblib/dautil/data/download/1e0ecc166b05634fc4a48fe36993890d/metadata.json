@@ -1,0 +1,1 @@
+{"duration": 1.796659231185913, "input_args": {"self": "<dautil.data.Worldbank object at 0x7fde11436e48>", "*": "[]", "**": "{'end': 2014, 'indicator': 'en.atm.co2e.kt', 'start': 1900, 'country': 'NL'}"}}
