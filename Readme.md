@@ -1,4 +1,4 @@
-# PythonDataAnalysisCookbook
+# Python Data Analysis Cookbook
 
 You can read more at [Python Data Analysis Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/python-data-analysis-cookbook?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781785282287)
 
